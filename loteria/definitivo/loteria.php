@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="es">
-<html>
+
 <head>
 	<meta charset="UTF-8">
     <title>Lotería Primitiva - Apuestas</title>
     <link rel="stylesheet" type="text/css" href="loteria1.css" />
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script type="text/javascript" src="/loteria/definitivo/loteria.js"></script>
+    <script type="text/javascript" src="loteria.js"></script>
 </head>
 <body>
 	<h1>LOTERÍA PRIMITIVA</h1>
@@ -24,8 +24,8 @@
     fclose($myfile);
     ?> 
     
-    <img src="/loteria/definitivo/imagenes/bombo.gif" width="200" height="240">
-    <img src="/loteria/definitivo/imagenes/primitiva.jpg" width="350" height="80">
+    <img src="imagenes/bombo.gif" width="200" height="240">
+    <img src="imagenes/primitiva.jpg" width="350" height="80">
     
     <div>
 	<ul id="aclass">
@@ -50,13 +50,13 @@
     <div style="display: inline-block;"><figure class="bola"><?php echo $bolas_extraidas[3];?></figure></div>
     <div style="display: inline-block;"><figure class="bola"><?php echo $bolas_extraidas[4];?></figure></div>
     <div style="display: inline-block;"><figure class="bola"><?php echo $bolas_extraidas[5];?></figure></div>
-    <div style="display: inline-block;"><figure class="bola" style="background: radial-gradient(circle at 15px 15px, black, #000);"><?php echo $complementario;?></figure></div>
+    <div style="display: inline-block;"><figure class="bola" style="background: radial-gradient(circle at 15px 15px, #888 5%, #000 50%);"><?php echo $complementario;?></figure></div>
     </div>
     
     <h2>Resultados estadísticos...</h2>
     
     <?php
-    $bd = new SQLite3('/var/www/html/loteria/definitivo/loteria.db');
+    $bd = new SQLite3('/var/www/html/html-php-sql-beginner/loteria/definitivo/loteria.db');
     
     //$results = $bd->query('SELECT * FROM resultadosLoteria');
     
