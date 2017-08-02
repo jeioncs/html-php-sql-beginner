@@ -1,0 +1,56 @@
+body {background-color: powderblue;}
+p    {color: red;}
+
+.bola {
+ display: block;
+ background: black;
+ border-radius: 50%;
+ height: 50px;
+ width: 50px;
+ margin-top: 5px;margin-left: 5px;
+ background: radial-gradient(circle at 15px 15px, red, #000);
+  font-size: 25px;
+  color: #fff;
+  line-height: 50px;
+  text-align: center;
+}
+
+.bolac {
+ display: block;
+ background: black;
+ border-radius: 50%;
+ height: 100px;
+ width: 100px;
+ margin-top: 5px;margin-left: 5px;
+ background: radial-gradient(circle at 30px 30px, red, #000);
+  font-size: 50px;
+  color: #fff;
+  line-height: 100px;
+  text-align: center;
+}
+
+.bolag {
+ display: block;
+ background: black;
+ border-radius: 50%;
+ height: 100px;
+ width: 100px;
+ margin-top: 5px;margin-left: 5px;
+ background: radial-gradient(circle at 30px 30px, #5cabff, #000);
+  font-size: 50px;
+  color: #fff;
+  line-height: 100px;
+  text-align: center;
+}
+
+/* Saca bola */
+.sb{ 
+  display: inline-block;
+}
+
+ul#aclass > li {
+  display: inline-block;
+}
+ul#aclass > li:first-child {
+  display: inline-block;
+}
