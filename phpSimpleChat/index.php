@@ -1,6 +1,6 @@
-<iframe name="window" src="chat.php" width="400" height="450" marginwidth="1" scrolling="yes" frameborder="1">
-
-</iframe> <!-- Creamos un iframe donde se muestra el historial -->
+<iframe name="window" src="chat.php" width="400" height="450" >
+<!-- Creamos un iframe donde se muestra el historial -->
+</iframe> 
 <?php
 
 echo <<<FORM
