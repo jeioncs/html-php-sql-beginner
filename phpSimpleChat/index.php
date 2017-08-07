@@ -1,3 +1,4 @@
+<h3> Chat de soporte html-php-sql-beginner <small><a href="limpiarHistorial.php">Admin</a></small></h3>
 <iframe name="window" src="chat.php#end" width="450" height="480" >
 <!-- Creamos un iframe donde se muestra el historial -->
 </iframe> 

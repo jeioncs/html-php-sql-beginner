@@ -15,12 +15,21 @@ if($_POST['enviar']){
 		$chat=file_get_contents("historial.txt");
 		file_put_contents("/tmp/".$filename, $chat);
 		file_put_contents("historial.txt","");
+		unset($_POST['password']);
+
+echo <<<VOLVERCHAT
+		<a href="index.php">Volver al Chat</a></small>
+VOLVERCHAT;
+
 	}
 
 }
 else{
 
 echo <<<FORM
+
+<h2>Administrar Historial (Borrar)</h2>
+
 <form method="post" >
 Usuario: <input type="text" id="user" name="user" size="20" value="$_POST[user]"><br>
 Password: <input type="password" id="password" name="password" size="20" value="$_POST[password]"><br>
