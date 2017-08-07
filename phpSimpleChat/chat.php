@@ -20,4 +20,6 @@ $chat = str_replace("CODIGO DEL EMOTICON","<IMG SRC="UBICACION DE LA IMAGEN">",$
 
 
 echo $chat; //mostramos el historial, con los emoticones transformados en imagen
+echo "<a name=\"end\"></a>"; //insertamos la etiqueta de fin de texto
+
 ?> 
