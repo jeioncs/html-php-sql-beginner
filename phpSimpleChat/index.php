@@ -27,8 +27,22 @@ $user = $_POST['user']; //vinculamos la variable
 $color = $_POST['favcolor'];
 $mensaje = $_POST['mensaje']; //vinculamos la variable
 
+// Código para borrar la última línea
+// load the data and delete the line from the array
+$lines = file('historial.txt');
+$last = sizeof($lines) - 1 ;
+unset($lines[$last]);
+
+// write the new data to the file
+$fp = fopen('historial.txt', 'w');
+fwrite($fp, implode('', $lines));
+fclose($fp); 
+
+
+
 $hist = fopen("historial.txt","a"); //abrimos el archivo donde se guarda todo el historial
 fwrite($hist, "<span style=\"color:".$color."\"><em><b>$user</b> <small>, a las ".date("H:i:s")." dijo:</small></em> $mensaje" . "</span><a name=\"end\"></a><br>" . PHP_EOL); //insertamos el texto
+fwrite($hist, "<a name=\"end\"></a>" . PHP_EOL); //insertamos el texto
 fclose($hist);  //cerramos el archivo
 }
 ?> 
