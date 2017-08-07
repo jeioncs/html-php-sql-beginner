@@ -24,7 +24,7 @@ Usuario: <input type="text" id="user" name="user" size="20" value="$_POST[user]"
 <!-- Mensaje: <input type="text" id="mensaje" name="mensaje" value="$_POST[mensaje]" size=33> -->
 <BR>
 <input type="button" value="Borrar" onclick="javascript:eraseText();"> 
-<input type="submit" VALUE="Enviar" onclick="javascript:beep();" name="enviar" id="enviar" size=33><BR>
+<input type="submit" VALUE="Enviar"  name="enviar" id="enviar" size=33><BR>
 </form>
 FORM;
 
@@ -42,11 +42,11 @@ unset($lines[$last]);
 $fp = fopen('historial.txt', 'w');
 fwrite($fp, implode('', $lines));
 fclose($fp); 
-
-
-
+?>
+<script>beep();</script>
+<?php 
 $hist = fopen("historial.txt","a"); //abrimos el archivo donde se guarda todo el historial
-fwrite($hist, "<span style=\"color:".$color."\"><em><b>$user</b> <small>, a las ".date("H:i:s")." dijo:</small></em> $mensaje" . "</span><a name=\"end\"></a><br>" . PHP_EOL); //insertamos el texto
+fwrite($hist, "<span style=\"color:".$color."\"><em><b>$user</b> <small>, a las ".date("H:i:s")." dijo:</small></em> $mensaje" . "</span>" . PHP_EOL); //insertamos el texto
 fwrite($hist, "<a name=\"end\"></a>" . PHP_EOL); //insertamos el texto
 fclose($hist);  //cerramos el archivo
 }
