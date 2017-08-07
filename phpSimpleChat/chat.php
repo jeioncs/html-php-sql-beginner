@@ -15,6 +15,7 @@ filemtime("historial.txt");
 
 $chat = str_replace("emo_spiderman","<IMG SRC=\"emoticones/emo_spiderman.png\">",$chat);
 $chat = str_replace("emo_doubt","<IMG SRC=\"emoticones/emo_doubt.png\">",$chat);
+$chat = str_replace("emo_smile","<IMG SRC=\"emoticones/emo_smile.png\">",$chat);
 
 /*Para agregar emoticones se agregan lineas asi:
 $chat = str_replace("CODIGO DEL EMOTICON","<IMG SRC="UBICACION DE LA IMAGEN">",$chat);
