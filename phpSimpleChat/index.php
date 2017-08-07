@@ -33,6 +33,8 @@ $user = $_POST['user']; //vinculamos la variable
 $color = $_POST['favcolor'];
 $mensaje = $_POST['mensaje']; //vinculamos la variable
 
+
+
 // Código para borrar la última línea
 // load the data and delete the line from the array
 $lines = file('historial.txt');
