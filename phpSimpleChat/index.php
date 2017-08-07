@@ -46,9 +46,6 @@ fclose($fp);
 
 
 $hist = fopen("historial.txt","a"); //abrimos el archivo donde se guarda todo el historial
-?>
-<script>beep();</script>
-<?php 
 fwrite($hist, "<span style=\"color:".$color."\"><em><b>$user</b> <small>, a las ".date("H:i:s")." dijo:</small></em> $mensaje" . "</span><a name=\"end\"></a><br>" . PHP_EOL); //insertamos el texto
 fwrite($hist, "<a name=\"end\"></a>" . PHP_EOL); //insertamos el texto
 fclose($hist);  //cerramos el archivo
