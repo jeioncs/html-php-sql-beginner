@@ -1,0 +1,11 @@
+AuthType Basic
+AuthName "Chat de soporte html-php-sql-beginner"
+AuthUserFile /var/www/passwordfile
+Require valid-user
+
+# Para activar esta característica
+# sudo a2enmod rewrite
+# sudo service apache2 restart
+# sudo vi /etc/apache2/apache2.conf
+# AllowOverride All
+# sudo htpasswd -c -m /ruta/de/passwordfile user (y te pide la pass)
