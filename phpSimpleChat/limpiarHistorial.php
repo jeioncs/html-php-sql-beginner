@@ -11,14 +11,14 @@ if($_POST['enviar']){
 	$password = $_POST['password'];
    
 	if ($user =="admin" && $password=="admin"){
-		echo "Has borrado el fichero de historial<br><br>";
+		echo "Has borrado el fichero de historial</br></br>";
 		$chat=file_get_contents("historial.txt");
 		file_put_contents("/tmp/".$filename, $chat);
 		file_put_contents("historial.txt","");
 		unset($_POST['password']);
 
 echo <<<VOLVERCHAT
-		<a href="index.php">Volver al Chat</a></small>
+		<a href="index.php">Volver al Chat</a>
 VOLVERCHAT;
 
 	}
