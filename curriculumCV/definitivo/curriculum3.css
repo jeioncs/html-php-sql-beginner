@@ -47,3 +47,13 @@ p.negrita {
 #col-izquierda h1, h2, h3, p{
 	color:white;
 }
+
+/*
+#col-izquierda ul li:nth-child(1) {
+    list-style-image: url('/html-php-sql-beginner/curriculumCV/definitivo/images/logolinkedin.png');
+}
+
+#col-izquierda ul li:nth-child(2) {
+    list-style-image: url('/html-php-sql-beginner/curriculumCV/definitivo/images/logotwitter.png');
+}
+*/
