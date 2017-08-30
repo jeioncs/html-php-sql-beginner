@@ -1,3 +1,32 @@
+
+.columna {
+	/*border:1px solid #444;*/
+	display:inline-block;
+	float:left;
+}
+
+
+#col-izquierda {
+	background:#5499c7;
+	/*width:362px;*/
+	height:100%;
+}
+
+#col-izquierda img {
+	/*
+	height: auto;
+	max-width: 100%;
+	*/
+	display: block;
+	margin: 0 auto;
+}
+
+/*
+#col-izquierda h1, h2, h3, p{
+	color:white;
+}
+*/
+
 .fila-bordes {
 	border-top: solid  #a9cce3;
     border-bottom: solid  #a9cce3;
@@ -30,30 +59,25 @@
     border-style: medium;
 }
 
-p.negrita {
+.destacado {
 	font-weight: bold;
 }
 
-#col-izquierda{
-	background:#5499c7;
-	width:362px;
+.nombre {
+	text-align:center;
 }
 
-#col-izquierda img{
-	width:100%;
+.bloqIzq {
+	padding:25px;
+}
+
+#col-principal {
+	/*width:50%;*/
+	width:auto;
 	height:100%;
+	padding:25px;
 }
 
-#col-izquierda h1, h2, h3, p{
-	color:white;
+.justificado {
+	text-align: justify;
 }
-
-/*
-#col-izquierda ul li:nth-child(1) {
-    list-style-image: url('/html-php-sql-beginner/curriculumCV/definitivo/images/logolinkedin.png');
-}
-
-#col-izquierda ul li:nth-child(2) {
-    list-style-image: url('/html-php-sql-beginner/curriculumCV/definitivo/images/logotwitter.png');
-}
-*/
