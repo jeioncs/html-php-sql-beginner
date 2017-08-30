@@ -1,6 +1,6 @@
 
 .columna {
-	/*border:1px solid #444;*/
+	border:1px solid #444;
 	display:inline-block;
 	float:left;
 }
@@ -72,8 +72,8 @@
 }
 
 #col-principal {
-	/*width:50%;*/
-	width:auto;
+	width:50%;
+	/*width:auto;*/
 	height:100%;
 	padding:25px;
 }
