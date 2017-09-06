@@ -1,0 +1,25 @@
+
+/*body div {
+	/*background-image: url(/html-php-sql-beginner/curriculumCV/definitivo/images/teacher.jpg);*/
+	/*background-position: bottom right;*/
+	background-position: 50% 0px;
+	/*background-repeat: no-repeat;*/
+	/*background-attachment: fixed;*/
+	/*background-attachment: scroll;*/
+	background-color: lightgrey;
+	width:80%; 
+}*/
+
+/*body {
+	position: absolute;
+	left:50%;
+	width:80%;
+	margin-left:-40%;
+	
+}*/
+
+body{width:80%;margin:0 auto;padding:0px;}
+
+div.container {
+	align:center;
+}

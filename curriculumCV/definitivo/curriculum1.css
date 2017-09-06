@@ -1,0 +1,23 @@
+#contenedor {
+	/*Diseño centrado de forma dinámica, esto es, adaptable a la anchura de 
+	la ventana del navegador.*/
+	width: 80%;	/*anchura del 80%*/
+	margin: 0 auto;	/*Márgenes sup. e inf. a 0. Márgenes laterales auto.*/
+}
+
+.foto {
+	float: right;
+	width: 25%;
+	/*height: 10%;*/
+}
+
+.nombre {
+	float: left;
+	width: 75%;
+	/*height: 10%;*/
+}
+
+.asunto {
+	display: 
+	width: 10%;
+}
