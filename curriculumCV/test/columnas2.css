@@ -1,0 +1,66 @@
+body {
+	/*margin:0;*/
+	padding:0;
+	/*Diseño centrado de forma dinámica, esto es, adaptable a la anchura de la ventana del 
+	 navegador.*/
+	width:80%;
+	margin:0 auto;
+}
+
+#CV-asunto h1 {
+	text-align:center;
+}
+
+/* Tratamiendo de columnas CSS */
+#contenedor2 {
+    float:left;
+    width:100%;
+    /*width:80%;*/
+    /*background:yellow;*/
+    overflow:hidden; /* Para cortar lo que sobresale de los contenedores, se aplica la
+                      regla overflow:hidden al contenedor más externo (en nuestro caso,
+                      el 2.*/
+    position:relative; /* Para permitir el mvto del contenido de cada columna de vuelta 
+    					a la página para que se alinee con el color de fondo bajo la 
+    					misma.*/
+}
+
+#contenedor1 {
+    float:left;
+    width:100%;
+    /*width:80%;*/
+    background:rgb(61, 164, 177);;
+    /*margin: 0 auto;*/
+    position:relative;
+    right:80%; /* Desplazamos el contenedor1 un 80% a la izquierda o, lo que es lo mismo, 
+    			dejamos un 80% a la derecha.*/
+}
+#CV-asunto {
+    float:left;
+    width:16%; /* Inicialmente, era 20%. Se modifica para el relleno (padding) a las
+    			columnas.*/
+    /*background:red;*/
+    position:relative; /* Para permitir el mvto del contenido de cada columna de vuelta 
+    					a la página para que se alinee con el color de fondo bajo la 
+    					misma.*/
+    left:82%; /* Se dezplaza el contenido un 80% a la derecha (se deja un 80% a la izquierda).*/
+    		  /* Se cambia para el relleno (padding) del contenido de las columnas (del 2% por la 
+    		   izqda col1).*/
+    overflow:hidden; /* Se añade para eliminar lo que sobra del desplazamiento para el relleno
+	                  (padding) del contenido de las columnas.*/
+}
+
+#CV-info {
+    float:left;
+    width:76%; /* Inicialmente, era 80%. Se modifica para el relleno (padding) a las
+    			columnas.*/
+    /*background:yellow;*/
+    position:relative; /* Para permitir el mvto del contenido de cada columna de vuelta 
+    					a la página para que se alinee con el color de fondo bajo la 
+    					misma.*/
+    left:86%; /* Se dezplaza el contenido un 80% a la derecha (se deja un 80% a la izquierda).*/
+              /* Se cambia para el relleno (padding) del contenido de las columnas (del 2% por la 
+               dcha col1 y del 2% por la izqda col2).*/
+	overflow:hidden; /* Se añade para eliminar lo que sobra del desplazamiento para el relleno
+	                  (padding) del contenido de las columnas.*/
+}
