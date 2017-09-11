@@ -11,6 +11,43 @@ body {
 	text-align:center;
 }
 
+#CV-personal {
+    float: left;
+    width: 100%;
+}
+
+#CV-personal #CV-identidad {
+	float: left;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+#CV-identidad #CV-nombre {
+	float: left;
+	width: 80%;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+}
+
+#CV-identidad #CV-foto {
+	float: right;
+	width: 20%;
+	/* height: 100%; */
+}
+
+/* En el inspector pusimos el estilo dentro de la etiq img <img id="CV-foto1"...> y aplicamos la regla.*/
+#CV-foto img {
+	float: left;
+	width: 100%;
+}
+
+#CV-datos {
+	clear:both;
+}
+
+
 /* Tratamiendo de columnas CSS */
 #contenedor2 {
     float:left;
@@ -35,6 +72,7 @@ body {
     right:80%; /* Desplazamos el contenedor1 un 80% a la izquierda o, lo que es lo mismo, 
     			dejamos un 80% a la derecha.*/
 }
+
 #CV-asunto {
     float:left;
     width:16%; /* Inicialmente, era 20%. Se modifica para el relleno (padding) a las
