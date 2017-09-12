@@ -28,7 +28,8 @@ body {
 	position: absolute;
 	top: 0;
 	bottom: 0;
-	background-color: #ab9eb7;
+	background-color: #1b3a2b;
+	/*background-color: #ab9eb7;*/
 }
 
 #CV-info #CV-profesional {
@@ -55,8 +56,32 @@ body {
     text-align: end;
 }
 
+#CV-personal p {
+	color: #f9f9ef;
+}
+
+.email a {
+	color: #B2EBF2;
+}
+
+/*p.fijo*/ i {
+	margin-left:2%;
+	float:center;
+}
+
+/*
+p.email i {
+	margin-left:2%;
+	float:center;
+}
+*/
+
 .bloqFormExpCur, .bloqIdInfOtros {
 	margin: 5%;
+}
+
+#CV-datos h3 > span {
+	
 }
 
 /*
