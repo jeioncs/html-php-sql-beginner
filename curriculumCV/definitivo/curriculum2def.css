@@ -1,0 +1,72 @@
+body {
+	/*margin:0;*/
+	padding:0;
+	/*Diseño centrado de forma dinámica, esto es, adaptable a la anchura de la ventana del 
+	 navegador.*/
+	width:80%;
+	margin:0 auto;
+}
+
+/* No nos interesa que se muestre en este curriculum, así que lo ocultamos.*/
+#CV-asunto, #CV-datos h3 {
+	display: none;
+}
+
+#CV-info {
+	/* Para conseguir que su div contenido con id="CV-personal" tenga su misma altura.*/
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+#CV-info #CV-personal {
+	display: inline;
+	float: left;
+	width: 30%;
+	/* Para conseguir que el div id="CV-personal" tenga la altura de su div contenedor
+	 con id="CV-info".*/
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	background-color: #ab9eb7;
+}
+
+#CV-info #CV-profesional {
+    display: inline;
+    float: right;
+    width: 70%;
+    background-color: #f9f9ef;
+}
+
+#CV-personal #CV-identidad {
+	margin: 10%;
+}
+
+#CV-foto img {
+	width: 100%;
+}
+
+#CV-nombre {
+    text-align: end;
+}
+
+#CV-about, #CV-datos {
+	margin: 10%;
+    text-align: end;
+}
+
+.bloqFormExpCur, .bloqIdInfOtros {
+	margin: 5%;
+}
+
+/*
+#CV-personal #CV-about {
+	margin: 10%;
+    text-align: end;
+}
+
+#CV-personal #CV-datos {
+	margin: 10%;
+    text-align: end;
+}
+*/
