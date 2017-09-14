@@ -62,6 +62,27 @@ body {
     border-bottom: thick solid #0B2F3A;
 }
 
+.tituloDatosVertical {
+	transform: rotate(-90deg);
+    transform-origin: left, top;
+    -ms-transform: rotate(-90deg);
+    -ms-transform-origin:right, top;
+    -webkit-transform: rotate(-90deg);
+    -webkit-transform-origin:right, top;
+
+  white-space: nowrap;
+  position: absolute;
+  top: 90px;
+  left: -20px;
+  color: #FFFFFF;
+  font-size: 24px;
+  font-style: italic;
+  font-family: Helvetica, Sans-Serif;
+  line-height:1;
+  letter-spacing: 2px;
+
+}
+
 h3>span {
 	font-style: italic;
 	font-family: Helvetica, Sans-Serif;
@@ -79,71 +100,16 @@ h3>span {
     clear: both;
 }
 
-
-/* Tratamiendo de columnas CSS */
-#contenedor {
-    float:left;
-    width:100%;
-	/*border:1px solid red;*/
-	margin-right: 50px;
-    /*width:80%;*/
-    /*background:yellow;*/
-
+.box{
+	border:1px solid #0B2F3A;
+	margin: 1px 1px 1px 1px;
 }
 
-#CV-asunto {
-    /*border:2px solid blue;*/
-    float: left;
-	background: linear-gradient(to right,blue, white);
-	width: 50px;
-	height:1000px;
-	margin-left: -50px;
-    
-
+.bg{
+	background-color:#0B2F3A;
 }
 
 
-
-
-#CV-info {
-	/*border:1px solid blue;*/
-    float:right;
-    width:99%; 
-
-}
-
-#CV-foto{
-	float:right;
-	width:20%;
-	-webkit-box-reflect: below 0px -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0.3) 0%, transparent 50%, transparent 100%); /* Solo en chrome*/
-}
-
-#CV-nombre{
-	float:left;
-	width:80%;
-}
-
-
-#CV-idiomas{
-	display: inline;
-	float:left;
-	width:33%;
-	border:1px solid blue;
-}
-
-#CV-informatica{
-	display: inline;
-	float:left;
-	width:33%;
-	border:1px solid blue;
-}
-
-#CV-otros{
-	display: inline;
-	float:right;
-	width:33%;
-	border:1px solid blue;
-}
 
 
 
