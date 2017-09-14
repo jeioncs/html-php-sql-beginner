@@ -1,0 +1,9 @@
+#info {
+	position: relative;
+	/*width:700px;*/
+	/*height:700px;*/
+	width: 70%;
+	background-image: url("simple.jpg");
+	background-repeat: no-repeat;
+}
+

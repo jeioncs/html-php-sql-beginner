@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+<meta charset="UTF-8"/>
+    <title>HTML de prueba</title>
+    <link rel="stylesheet" type="text/css" href="simple1.css"> <!-- Este es el elemento cero-->
+    <link rel="stylesheet" type="text/css" href="simple2.css"> <!-- Este es el elemento uno-->
+    <link rel="stylesheet" type="text/css" href="simple3.css"> <!-- Este es el elemento dos-->
+<script>
+function changeCSS(cssFile, cssLinkIndex) {
+
+    var oldlink = document.getElementsByTagName("link").item(cssLinkIndex);
+
+    var newlink = document.createElement("link");
+    newlink.setAttribute("rel", "stylesheet");
+    newlink.setAttribute("type", "text/css");
+    newlink.setAttribute("href", cssFile);
+
+    document.getElementsByTagName("head").item(0).replaceChild(newlink, oldlink);
+}
+</script>
+
+</head>
+
+<body>
+        <a href="#" onclick="changeCSS('simple1.css', 2);">UNO</a> 
+        <a href="#" onclick="changeCSS('simple2.css', 0);">DOS</a>
+        <a href="#" onclick="changeCSS('simple3.css', 1);">TRES</a>
+
+<h1>Educación</h1>
+
+<div id="fullcite">
+	</br>	
+	<p id="cite">La educación es el arma más poderosa que puedes usar para cambiar el mundo<br/>
+	<p id="author">Nelson Mandela</p>
+	</br>
+</div>
+
+</body>
+</html>

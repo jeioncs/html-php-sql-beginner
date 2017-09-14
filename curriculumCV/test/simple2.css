@@ -1,0 +1,28 @@
+h1 {
+	color: #00FF00;
+
+}
+
+#fullcite {
+	border: solid 1px;
+	font-size: 48px;
+	background-image: url("simpleG.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 626px;
+	height:626px;
+	padding: 20px 20px 20px 20px;
+
+}
+
+#cite {	
+	font-weight: bold;
+}
+
+#author {	
+	text-align: right;
+	font-style: italic;
+	font-size: 40px;
+	color: gray;
+
+}

@@ -1,0 +1,11 @@
+#imagen {
+	position:relative;
+}
+
+#imagen p{
+	position: relative;
+	color:red;
+	padding:2px 10px;
+	opacity:0.5;
+	font-weight:bold;
+}
