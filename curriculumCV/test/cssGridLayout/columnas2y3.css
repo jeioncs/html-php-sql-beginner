@@ -56,6 +56,10 @@ body {
 	color:#045FB4;
 }
 
+.bloqFormExp {
+	padding-bottom:15px;
+}
+
 .tituloDatos {
 
     border-style: solid 1px;
@@ -116,16 +120,13 @@ h3>span {
 	margin-left: -20px;
 }
 
-
 p {
     display: inline;
 }
 
-
-
-
-
-
+.bloqCursos p.titulo-datos {
+	margin-right:15px;
+}
 
 clear {
 	
