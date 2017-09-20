@@ -1,10 +1,10 @@
 body {
-	font-size:20px;
+	/*font-size:20px;*/
+	font-size:18px;
 }
 
 #gradienteAzul{
 	background: linear-gradient(to right,#0B2F3A, #CEE3F6);
-	
 }
 
 .textoVertical {
@@ -15,12 +15,11 @@ body {
     -webkit-transform: rotate(-90deg);
     -webkit-transform-origin:right, top;
 
-  white-space: nowrap;
-  position: absolute;
-  top: 100px;
-  left: -60px;
-  color: #FFFFFF;
-
+    white-space: nowrap;
+	position: absolute;
+	top: 100px;
+	left: -60px;
+	color: #FFFFFF;
 }
 
 .styleCV{
@@ -61,7 +60,6 @@ body {
 }
 
 .tituloDatos {
-
     border-style: solid 1px;
     border-bottom: thick solid #0B2F3A;
 }
@@ -74,17 +72,16 @@ body {
     -webkit-transform: rotate(-90deg);
     -webkit-transform-origin:right, top;
 
-  white-space: nowrap;
-  position: absolute;
-  top: 90px;
-  left: -20px;
-  color: #FFFFFF;
-  font-size: 24px;
-  font-style: italic;
-  font-family: Helvetica, Sans-Serif;
-  line-height:1;
-  letter-spacing: 2px;
-
+    white-space: nowrap;
+    position: absolute;
+    top: 90px;
+    left: -20px;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-style: italic;
+    font-family: Helvetica, Sans-Serif;
+    line-height:1;
+    letter-spacing: 2px;
 }
 
 h3>span {
@@ -107,6 +104,7 @@ h3>span {
 .box{
 	border:1px solid #0B2F3A;
 	margin: 1px 1px 1px 1px;
+	height:100%;
 }
 
 .bg{
@@ -128,7 +126,12 @@ p {
 	margin-right:15px;
 }
 
+ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
 clear {
-	
-      clear: both;
+	clear: both;
 }
