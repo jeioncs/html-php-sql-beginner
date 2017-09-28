@@ -16,9 +16,32 @@ h2 {
 }
 
 #fullcite3 p {
-	font-family: Georgia, serif;
+	font-family: Georgia, serif;	
 }
 
 #fullcite4 p {
-	font-family: "Courier New", monospace;
+	/*font-family: "Courier New", monospace;*/
+	font-family: 'old_londonregular';
+	font-size: 30px;
+}
+
+/*
+@font-face {
+    font-family: KacstDecorative;
+    src: url('/fonts/kacst_decorative.ttf');
+}
+
+@font-face {
+    font-family: OldLondonAlternate;
+    src: url('/fonts/old_london_alternate.ttf');
+}
+*/
+
+@font-face {
+    font-family: 'old_londonregular';
+    src: url('oldlondon-webfont.woff2') format('woff2'),
+         url('oldlondon-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
